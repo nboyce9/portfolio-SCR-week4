@@ -54,12 +54,28 @@ i{
     font-weight: 400;
 }
 
+.about-section{
+    text-align: center;
+    padding: 150px 15px;
+    
+}
+.about-section h1{
+    font-weight: bold;
+}
+.about-section p{
+    font-family: 'Poppins';
+}
+
+
 @media (max-width: 576px) {
     h1{
         font-size: 50px;
     }
     h2{
         font-size: 30px;
+    }
+    h3{
+        font-size: 25px;
     }
     .btn-branding{
         font-size: 14px;
@@ -72,4 +88,5 @@ i{
     #desc{
         font-size: 14px;
     }
+    
 }
