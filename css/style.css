@@ -7,10 +7,6 @@ body{
     margin: 10px;
     padding: 0;
 }
-.logo{
-    height: 50px;
-    margin: 0 auto;
-}
 .header{
     background-color:#F9F7FE;
     color: black;
@@ -65,6 +61,30 @@ i{
 .content p{
     font-family: 'Poppins';
 }
+.logo{
+    height: 50px;
+}
+
+nav{
+    padding: 20px;   
+}
+ul{
+    list-style: none;
+}
+
+li{
+    display: inline;
+    padding-left: 15px;
+    line-height: 42px;
+}
+
+.nav-links {
+    text-decoration:none;
+    color:#272142
+}
+.active{
+    color: #9a71ec;
+}
 
 
 @media (max-width: 576px) {
@@ -86,6 +106,9 @@ i{
         padding: 10px 15px;
     }
     #desc{
+        font-size: 14px;
+    }
+    .nav-links{
         font-size: 14px;
     }
     
